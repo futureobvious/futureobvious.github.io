@@ -99,6 +99,7 @@
 
 
       
+      * { box-sizing: border-box; }
 .video-background {
   background: #000;
   position: fixed;
@@ -142,6 +143,12 @@
   </head>
   <body class="d-flex h-100 text-center text-bg-dark">
 
+    <div class="video-background">
+      <div class="video-foreground">
+        <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
         <li>
@@ -184,11 +191,7 @@
     <p>&copy; Future Obvious, LLC</p>
   </footer>
 </div>
-<div class="video-background">
-  <div class="video-foreground">
-    <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
+
 <script src="cover.css"></script>
 
     </body>
